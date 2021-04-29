@@ -1,0 +1,170 @@
+@font-face {
+    font-family: '777Balsamtint';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Balsamtint.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: '777Balsamtint';
+    text-decoration: none;
+   
+}
+
+header{
+    background-image:url('https://mdl.artvee.com/sftb/600222sl.jpg');
+    display: block;
+    color: pink;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px
+}
+
+/* .pa{
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 15%;
+    height: 15%;
+   
+}
+
+.onion{
+    margin-top: 100px;
+    width: 220x;
+    height: 200px;
+    padding-left: 30px;
+} */
+
+.nav-bar{
+    margin-top: 97px;
+    display:flex;
+    text-align:center;
+    position: fixed;
+    width: 1555px;
+    font-family: 'ImcreSoojin';
+    
+    
+}
+.nav-nanum{
+    display: inline-block;
+    background-color: greenyellow;
+    margin: 0%;
+    flex: 1;
+}
+
+.nav-buytogether{
+    display: inline-block;
+    background-color:#56A902;
+    flex: 1;
+    margin: 0%;
+}
+
+.contents-container{
+   display: flex;
+}
+.left-container{
+   
+    flex: 1.5;
+/*    
+    border: 1px solid black; */
+ 
+}
+
+.center-container{
+   
+    flex: 7;
+   
+   
+    /* border: 1px solid black; */
+    
+}
+
+.right-container{
+  
+    flex: 1.5;
+   
+    
+    /* border: 1px solid black; */
+  
+}
+
+.vegi-card-wrapper{
+    display: flex;
+    text-align: center;
+   
+}
+
+
+.vegi-card{
+   
+    margin:30px auto;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.5);
+    background-color:#F2F2F2;
+}
+
+
+.vegi-card img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.vegi-title1{
+    margin-top:150px ;
+    margin-left: 30px;
+}
+
+
+.vegi-title2{
+    margin-top:50px ;
+    margin-left: 30px;
+}
+
+p{
+    margin-top: 15px;
+    
+    margin-bottom: 5px;
+    font-family: 'MaplestoryOTFBold';
+}
+
+
+a{
+    color: black;
+    margin: 0px auto;
+}
+
+#gps{
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.gps-messages{
+    margin-top: 5px;
+
+}
+
+
+
+
